@@ -1,0 +1,33 @@
+#ignore all the jpg files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
+*.svg
+*.heic
+
+# ignore the virtual environment
+.venv/
+
+# ignore the .DS_Store file
+.DS_Store
+
+# ignore all the pycache files
+__pycache__/
+
+
+#ignore the data
+src/data/food_images/
+
+
+
+
+
+
+
+
+

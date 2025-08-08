@@ -1,0 +1,13 @@
+batch_size: 1024
+dropout_prob: 0.1
+embedding_dim: 768
+hidden_dim: 256
+input_dim: 768
+learning_rate: 0.0001
+margin: 0.4
+normalize_embeddings: true
+num_workers: 8
+seed: 42
+test_embeddings_file: src/data/embeddings/X_test_clip.pt
+train_embeddings_file: src/data/embeddings/X_train_clip.pt
+val_embeddings_file: src/data/embeddings/X_val_clip.pt
